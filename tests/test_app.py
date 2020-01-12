@@ -9,10 +9,10 @@ class TestAPP(unittest.TestCase):
     treatment_functions.
     """
 
-    def test_zhihu_news(self):
+    def test_zhihu_latest_news(self):
         """获取知乎新闻内容"""
 
-        data = app.get_zhihu_news()
+        data = app.get_zhihu_latest_news()
         print(data)
 
     def test_zhihu_news_by_id(self):
